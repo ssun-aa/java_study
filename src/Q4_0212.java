@@ -5,7 +5,7 @@ abstract class Calculator{
 	public abstract int subtract(int a, int b);
 	public abstract double average(int a[]);
 }
-public class Q4_0207 extends Calculator{
+public class Q4_0212 extends Calculator{
 	
 	double sum=0, average=0;
 	
@@ -34,7 +34,7 @@ public class Q4_0207 extends Calculator{
 	}
 	
 	public static void main(String[] args) {
-		Q4_0207 c = new Q4_0207();
+		Q4_0212 c = new Q4_0212();
 		System.out.println(c.add(2, 3));
 		System.out.println(c.subtract(2,3));
 		System.out.println(c.average(new int [] {2,3,4}));

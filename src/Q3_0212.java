@@ -40,7 +40,7 @@ class PositivePoint extends Point{
 	}
 	
 }
-public class Q3_0207 {
+public class Q3_0212 {
 
 	public static void main(String[] args) {
 		PositivePoint p = new PositivePoint();
