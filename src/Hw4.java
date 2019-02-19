@@ -1,7 +1,7 @@
 import java.util.*;
 
 interface Stack{
-	int MAX = 20;
+	int MAX = 2;
 	int length();
 	Object pop();
 	boolean push(Object ob);
@@ -10,19 +10,15 @@ interface Stack{
 class StringStack implements Stack{
 	int count=0;
 	Object ob;
-	@Override
 	public int length() {
 		count++;
 		return count;
 	}
 	
-	@Override
 	public Object pop() {
 		count--;
 		return ob;
 	}
-	
-	@Override
 	public boolean push(Object ob) {
 				
 		if(length()>0) {
