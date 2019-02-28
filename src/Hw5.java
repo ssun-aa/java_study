@@ -21,9 +21,10 @@ public class Hw5 {
 			
 			map.put(key, location[i]);
 		}
-//		
-//		
+
 		sc.nextLine();
+		
+		
 		String KEY = sc.nextLine();
 		System.out.println(map.get(KEY).latitude +" "+map.get(KEY).longitude );
 		
