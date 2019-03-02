@@ -1,15 +1,19 @@
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
+import java.util.*;
 
 public class ByteExam1 {
 
 	public static void main(String[] args) {
-		try {
+		try(
+				DataInputStream in = new DataInputStream(new FileInputStream("word.txt"));
+				){
 			
-			}{
+			String st = in.readUTF();
 			
+			
+			
+		}catch(Exception e) {
+			e.printStackTrace();
 		}
 	}
 }

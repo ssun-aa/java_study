@@ -4,7 +4,6 @@ import java.util.*;
 public class Hw9 {
 	public static void main(String[] args) {
 		Calendar cal = Calendar.getInstance();
-		System.out.println(Calendar.HOUR_OF_DAY);
 		if(cal.get(Calendar.HOUR_OF_DAY)>=4 && cal.get(Calendar.HOUR_OF_DAY)<12) {
 			System.out.println("Good Morning");
 		}
