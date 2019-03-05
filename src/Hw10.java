@@ -95,7 +95,7 @@ class Hangman {
 	boolean complete(char key) {
 		boolean flag = false;
 		for(int i = 0 ; i < newWord.length(); i++) {
-			if(hiddenword.charAt(i)=='_' && newWord.charAt(i)==key) {
+			if(newWord.charAt(i)==key) {
 				hiddenword.setCharAt(i, key);
 				flag = true;
 			}
