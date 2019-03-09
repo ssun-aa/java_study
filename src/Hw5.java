@@ -24,9 +24,8 @@ public class Hw5 {
 
 		sc.nextLine();
 		
-		
-		String KEY = sc.nextLine();
-		System.out.println(map.get(KEY).latitude +" "+map.get(KEY).longitude );
+		String Key = sc.nextLine();
+		System.out.println(map.get(Key).latitude +" "+map.get(Key).longitude );
 		
 		
 	}

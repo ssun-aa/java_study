@@ -65,9 +65,9 @@ public class Hw12 {
 			name = sc.nextLine();
 			
 			for(i = 0 ; i < 10 ; i++) {
-				if(name.equals(c[i].name)) {
-					c[i].name = "---";
-					flag = 1;
+				if(name.equals(c[i].name)) {//이름이 일치하면
+					c[i].name = "---";//다시 이름 공백으로 바꾸고
+					flag = 1;//성공 flag로 바꿈
 				}
 			}
 			if(flag==1) {//일치한 이름이 있을 경우;성공
@@ -89,7 +89,7 @@ public class Hw12 {
 		reset(a);
 		reset(b);
 		
-		while(true) {
+		while(true) {//4가 입력 될 때까지 무한 반복
 			
 			System.out.print("예약(1), 조회(2), 취소(3), 끝내기(4) >>");
 			int n = sc.nextInt();
@@ -100,13 +100,13 @@ public class Hw12 {
 				level = sc.nextInt();
 				
 				if(level==1) {
-					if(scount==10) {
+					if(scount==10) {//s석 예약 수가 10명인 경우
 						System.out.println("예약할 남은 좌석이 없습니다");
 					}
 					else {
 						System.out.print("S>>");
 						reservation(s);
-						scount++;
+						scount++;//예약 횟수 ++
 						break;
 					}
 				}
@@ -132,7 +132,7 @@ public class Hw12 {
 						break;
 					}
 				}
-				else
+				else// s석 a석 b석 외의 숫자를 입력 한 경우
 					System.out.println("잘못된 좌석입니다. 다시 입력 해 주십시오");
 				}while(true);
 				
@@ -157,13 +157,13 @@ public class Hw12 {
 				System.out.print("좌석 구분 S(1), A(2), B(3) >>");
 				level = sc.nextInt();
 				if(level == 1) {
-					if(scount==0) {
+					if(scount==0) {//s석 예약 수가 0 인 경우
 						System.out.println("취소할 좌석이 없습니다");
 						break;
 					}
 					System.out.print("S>>");
-					cancle(s);
-					scount--;
+					cancle(s);//취소 후
+					scount--;//예약 수 --
 					break;
 				}
 				else if(level == 2) {
@@ -186,7 +186,7 @@ public class Hw12 {
 					bcount--;
 					break;
 				}
-				else
+				else// s석 a석 b석 외의 숫자를 입력 한 경우
 					System.out.println("잘못된 좌석입니다. 다시 입력 해 주십시오");
 				}while(true);
 			
@@ -195,12 +195,12 @@ public class Hw12 {
 			case 4:
 				break;
 				
-			default:
+			default:// 1,2,3,4 외의 메뉴가 입력 된 경우
 				System.out.println("없는 메뉴입니다. 다시 입력 해 주십시오.");
 				break;
 			}
 			
-			if(n == 4)
+			if(n == 4)//4가 입력 된 경우 종료
 				break;
 			
 		

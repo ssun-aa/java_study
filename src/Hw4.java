@@ -45,7 +45,7 @@ public class Hw4 {
 			case 1:
 				
 				if(i>=st[i].MAX) {
-					System.out.println("최대갯수를 초과하였습니다.");
+					System.out.println("최대 갯수를 초과하였습니다.");
 					break;
 				}
 				
@@ -64,7 +64,7 @@ public class Hw4 {
 			case 2:
 				i--;
 				if(i<0){
-					System.out.println("pop할 object가 없습니다");
+					System.out.println("pop할 object가 없습니다.");
 					break;
 				}
 				Object obj= st[i].pop();

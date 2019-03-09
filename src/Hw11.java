@@ -37,7 +37,7 @@ public class Hw11 {
 
 				if(count % 10 == 0) {
 					float per = ((float)count/fsize1)*100;
-					System.out.println((int)per +"% 카피 됨.");
+					System.out.println((int)per +"% 카피 되었습니다.");
 				}
 			}
 		} catch (IOException e) {
