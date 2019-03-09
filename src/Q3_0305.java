@@ -25,7 +25,7 @@ public class Q3_0305{
 		else if(then < today)
 			System.out.println("오늘은 기준일로부터" + sum + "일 남았습니다");
 		else
-			System.out.println("기준일 오늘과 같습니다.");
+			System.out.println("기준일은 오늘과 같습니다.");
 		
 				
 	}

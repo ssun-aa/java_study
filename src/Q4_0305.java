@@ -21,7 +21,7 @@ public class Q4_0305 {
 			in.close();
 			Collections.sort(list);
 			Iterator<String> iter = list.iterator();
-			System.out.println("오름차순 정렬 후");
+			System.out.println("<오름차순 정렬 후>");
 			while(iter.hasNext()) {
 				word = iter.next();
 				System.out.println(word);
