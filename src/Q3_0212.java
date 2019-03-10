@@ -1,4 +1,5 @@
 import java.util.*;
+
 class Point{
 	private int x, y;
 	
@@ -45,7 +46,7 @@ public class Q3_0212 {
 	public static void main(String[] args) {
 		PositivePoint p = new PositivePoint();
 		p.move(10,10);
-		System.out.println(p.toString() + "입니다.");
+		System.out.println(p.toString() + "입니다");
 		
 		p.move(-5,5);
 		System.out.println(p.toString() + "입니다.");

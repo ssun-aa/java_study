@@ -19,7 +19,7 @@ public class Q2_0212 {
 			
 			String answ = String.valueOf(count);
 			System.out.print(a.charAt(i)+answ);
-			i+=count-1;
+			i=i+count-1;
 		}
 	}
 

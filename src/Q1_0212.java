@@ -7,9 +7,9 @@ public class Q1_0212 {
 		String a = sc.nextLine();
 		
 		for(int i=0;i<a.length();i++) {
-			if((a.charAt(i)>='0') && (a.charAt(i)<='9')) {
+			if((a.charAt(i)>='0') && (a.charAt(i)<='9'))
 				System.out.print(a.charAt(i));
-			}
+			
 		}
 	}
 
