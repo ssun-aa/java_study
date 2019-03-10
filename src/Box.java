@@ -1,4 +1,3 @@
-
 public class Box<E> {
 				
 	private E obj;

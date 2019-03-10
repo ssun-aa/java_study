@@ -15,7 +15,7 @@ public class TimeExam {
 		
 		LocalTime lt1 = LocalTime.of(17, 18);
 		System.out.println(lt1);
-		LocalTime lt2 = LocalTime.parse("10:15:30");
+		LocalTime lt2 = LocalTime.parse("10:15:10");
 		System.out.println(lt2);
 		
 		LocalDate theDate = timePoint.toLocalDate();

@@ -13,7 +13,6 @@ public class MyThread1 extends Thread {
 			try {
 				Thread.sleep((int)(Math.random()*1000));
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}

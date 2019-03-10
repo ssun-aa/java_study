@@ -18,7 +18,7 @@ public class CalenderExam {
 //		s = years + "³â" + months + "¿ù" + days + "ÀÏ";
 //		System.out.println(s);
 		System.out.println(hour);
-		return "";
+		return " ";
 		
 	}
 	public static void main(String[] args) {

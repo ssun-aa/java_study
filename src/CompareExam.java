@@ -6,6 +6,7 @@ public class CompareExam {
 		int value = compare.compareTo(k, m);
 		System.out.println(value);
 	}
+	
 	public static void main(String[] args) {
 		exec((i,j) -> {
 			return i-j;

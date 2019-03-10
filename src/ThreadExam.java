@@ -8,7 +8,7 @@ public class ThreadExam {
 		t1.start();
 		t2.start();
 		
-		System.out.println("main end !!!!");
+		System.out.println("main end !!!");
 	}
 
 }

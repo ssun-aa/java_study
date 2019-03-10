@@ -12,6 +12,6 @@ public class ThreadExam2 {
 		
 		thread2.start();
 		
-		System.out.println("main end !!!!");
+		System.out.println("main end !!!");
 	}
 }

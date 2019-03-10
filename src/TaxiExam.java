@@ -8,7 +8,7 @@ public class TaxiExam {
 	
 		taxi.start();
 		taxi.afterMidnight();
-		taxi.stop(500);
+		taxi.stop(1000);
 	}
 
 }

@@ -2,7 +2,7 @@
 public class MusicBox {
 	public synchronized void playMusicA() {
 		for(int i = 0 ; i < 10 ; i ++) {
-			System.out.println("½Å³ª´Â À½¾Ç!!!");
+			System.out.println("½Å³ª´Â À½¾Ç!!");
 			
 			try {
 				Thread.sleep((int)(Math.random()*1000));
@@ -14,7 +14,7 @@ public class MusicBox {
 	}
 	public synchronized void playMusicB() {
 		for(int i = 0 ; i < 10 ; i ++) {
-			System.out.println("½½ÇÂ À½¾Ç!!!");
+			System.out.println("½½ÇÂ À½¾Ç!!");
 			
 			try {
 				Thread.sleep((int)(Math.random()*1000));
@@ -28,7 +28,7 @@ public class MusicBox {
 		synchronized (this) {
 		for(int i = 0 ; i < 10 ; i ++) {
 		
-				System.out.println("Ä«Æä À½¾Ç!!!");
+				System.out.println("Ä«Æä À½¾Ç!!");
 			
 			
 			try {

@@ -22,7 +22,7 @@ public class BoxExam {
 		Iterator<String> iter = keys.iterator();
 		while(iter.hasNext()) {
 			String key = iter.next();
-			System.out.println(key +":"+product.get(key));
+			System.out.println(key +" :"+product.get(key));
 		}
 	}
 }
